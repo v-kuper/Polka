@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A90F2CE34B1D4F8397186B02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90F2CE34B1D4F8397186B01 /* AppDelegate.swift */; };
+		B0341BD63095F8B000DFA4BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0341BD23095F8B000DFA4BD /* Assets.xcassets */; };
+		B0341BD93095F8B000DFA4BD /* AppRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0341BD53095F8B000DFA4BD /* AppRootView.swift */; };
+		B0341BE13096105800DFA4BD /* PolkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0341BDF3096105800DFA4BD /* PolkaTests.swift */; };
+		B0341BE43096105B00DFA4BD /* PolkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0341BE23096105B00DFA4BD /* PolkaUITests.swift */; };
+		B070AA2630A2514A00DFEA20 /* FactoryKit in Frameworks */ = {isa = PBXBuildFile; productRef = B070AA2530A2514A00DFEA20 /* FactoryKit */; };
+		B070AA2830A2546C00DFEA20 /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B070AA2730A2546C00DFEA20 /* AppContainer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0084A753086B698008A2DB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0084A5D3086B697008A2DB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0084A643086B697008A2DB5;
+			remoteInfo = Polka;
+		};
+		B0084A7F3086B698008A2DB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0084A5D3086B697008A2DB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0084A643086B697008A2DB5;
+			remoteInfo = Polka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A90F2CE34B1D4F8397186B01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0084A653086B697008A2DB5 /* Polka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0084A743086B698008A2DB5 /* PolkaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolkaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0084A7E3086B698008A2DB5 /* PolkaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolkaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0341BD23095F8B000DFA4BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0341BD53095F8B000DFA4BD /* AppRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRootView.swift; sourceTree = "<group>"; };
+		B0341BDF3096105800DFA4BD /* PolkaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolkaTests.swift; sourceTree = "<group>"; };
+		B0341BE23096105B00DFA4BD /* PolkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolkaUITests.swift; sourceTree = "<group>"; };
+		B070AA2730A2546C00DFEA20 /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0084A623086B697008A2DB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				B070AA2630A2514A00DFEA20 /* FactoryKit in Frameworks */,
+			);
+		};
+		B0084A713086B698008A2DB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		B0084A7B3086B698008A2DB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0084A5C3086B697008A2DB5 = {
+			isa = PBXGroup;
+			children = (
+				B0341BDE3096102300DFA4BD /* Polka */,
+				B0341BE03096105800DFA4BD /* PolkaTests */,
+				B0341BE33096105B00DFA4BD /* PolkaUITests */,
+				B0084A663086B697008A2DB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0084A663086B697008A2DB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0084A653086B697008A2DB5 /* Polka.app */,
+				B0084A743086B698008A2DB5 /* PolkaTests.xctest */,
+				B0084A7E3086B698008A2DB5 /* PolkaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0341BDE3096102300DFA4BD /* Polka */ = {
+			isa = PBXGroup;
+			children = (
+				B0341BEB309612DC00DFA4BD /* Entitlements */,
+				B0341BEC309612E500DFA4BD /* System */,
+				B0341BED309612FB00DFA4BD /* Injected */,
+				B0341BEE3096130A00DFA4BD /* Utilities */,
+				B0341BEF3096131E00DFA4BD /* Models */,
+				B0341BF0309613E300DFA4BD /* Services */,
+				B0341BE53096114200DFA4BD /* UI */,
+				B0341BE63096116300DFA4BD /* Resources */,
+			);
+			path = Polka;
+			sourceTree = "<group>";
+		};
+		B0341BE03096105800DFA4BD /* PolkaTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0341BDF3096105800DFA4BD /* PolkaTests.swift */,
+			);
+			path = PolkaTests;
+			sourceTree = "<group>";
+		};
+		B0341BE33096105B00DFA4BD /* PolkaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0341BE23096105B00DFA4BD /* PolkaUITests.swift */,
+			);
+			path = PolkaUITests;
+			sourceTree = "<group>";
+		};
+		B0341BE53096114200DFA4BD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B0341BE73096119100DFA4BD /* Screens */,
+				B0341BF13096143D00DFA4BD /* Launch */,
+				B0341BE83096119B00DFA4BD /* Components */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B0341BE63096116300DFA4BD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B0341BD23095F8B000DFA4BD /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B0341BE73096119100DFA4BD /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B0341BD53095F8B000DFA4BD /* AppRootView.swift */,
+				B0341BE9309612B700DFA4BD /* Auth */,
+				B0341BEA309612BE00DFA4BD /* Main */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		B0341BE83096119B00DFA4BD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		B0341BE9309612B700DFA4BD /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		B0341BEA309612BE00DFA4BD /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B0341BEB309612DC00DFA4BD /* Entitlements */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entitlements;
+			sourceTree = "<group>";
+		};
+		B0341BEC309612E500DFA4BD /* System */ = {
+			isa = PBXGroup;
+			children = (
+				A90F2CE34B1D4F8397186B01 /* AppDelegate.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		B0341BED309612FB00DFA4BD /* Injected */ = {
+			isa = PBXGroup;
+			children = (
+				B070AA2730A2546C00DFEA20 /* AppContainer.swift */,
+			);
+			path = Injected;
+			sourceTree = "<group>";
+		};
+		B0341BEE3096130A00DFA4BD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B0341BEF3096131E00DFA4BD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B0341BF0309613E300DFA4BD /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B0341BF13096143D00DFA4BD /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0084A643086B697008A2DB5 /* Polka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0084A863086B698008A2DB5 /* Build configuration list for PBXNativeTarget "Polka" */;
+			buildPhases = (
+				B0084A613086B697008A2DB5 /* Sources */,
+				B0084A623086B697008A2DB5 /* Frameworks */,
+				B0084A633086B697008A2DB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			name = Polka;
+			packageProductDependencies = (
+				B070AA2530A2514A00DFEA20 /* FactoryKit */,
+			);
+			productName = Polka;
+			productReference = B0084A653086B697008A2DB5 /* Polka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0084A733086B698008A2DB5 /* PolkaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0084A893086B698008A2DB5 /* Build configuration list for PBXNativeTarget "PolkaTests" */;
+			buildPhases = (
+				B0084A703086B698008A2DB5 /* Sources */,
+				B0084A713086B698008A2DB5 /* Frameworks */,
+				B0084A723086B698008A2DB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0084A763086B698008A2DB5 /* PBXTargetDependency */,
+			);
+			name = PolkaTests;
+			productName = PolkaTests;
+			productReference = B0084A743086B698008A2DB5 /* PolkaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0084A7D3086B698008A2DB5 /* PolkaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0084A8C3086B698008A2DB5 /* Build configuration list for PBXNativeTarget "PolkaUITests" */;
+			buildPhases = (
+				B0084A7A3086B698008A2DB5 /* Sources */,
+				B0084A7B3086B698008A2DB5 /* Frameworks */,
+				B0084A7C3086B698008A2DB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0084A803086B698008A2DB5 /* PBXTargetDependency */,
+			);
+			name = PolkaUITests;
+			productName = PolkaUITests;
+			productReference = B0084A7E3086B698008A2DB5 /* PolkaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0084A5D3086B697008A2DB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					B0084A643086B697008A2DB5 = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					B0084A733086B698008A2DB5 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = B0084A643086B697008A2DB5;
+					};
+					B0084A7D3086B698008A2DB5 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = B0084A643086B697008A2DB5;
+					};
+				};
+			};
+			buildConfigurationList = B0084A603086B697008A2DB5 /* Build configuration list for PBXProject "Polka" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0084A5C3086B697008A2DB5;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B070AA2430A2514A00DFEA20 /* XCRemoteSwiftPackageReference "Factory" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B0084A663086B697008A2DB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0084A643086B697008A2DB5 /* Polka */,
+				B0084A733086B698008A2DB5 /* PolkaTests */,
+				B0084A7D3086B698008A2DB5 /* PolkaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0084A633086B697008A2DB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+				B0341BD63095F8B000DFA4BD /* Assets.xcassets in Resources */,
+			);
+		};
+		B0084A723086B698008A2DB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		B0084A7C3086B698008A2DB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0084A613086B697008A2DB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				A90F2CE34B1D4F8397186B02 /* AppDelegate.swift in Sources */,
+				B0341BD93095F8B000DFA4BD /* AppRootView.swift in Sources */,
+				B070AA2830A2546C00DFEA20 /* AppContainer.swift in Sources */,
+			);
+		};
+		B0084A703086B698008A2DB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				B0341BE13096105800DFA4BD /* PolkaTests.swift in Sources */,
+			);
+		};
+		B0084A7A3086B698008A2DB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+				B0341BE43096105B00DFA4BD /* PolkaUITests.swift in Sources */,
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0084A763086B698008A2DB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0084A643086B697008A2DB5 /* Polka */;
+			targetProxy = B0084A753086B698008A2DB5 /* PBXContainerItemProxy */;
+		};
+		B0084A803086B698008A2DB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0084A643086B697008A2DB5 /* Polka */;
+			targetProxy = B0084A7F3086B698008A2DB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B0084A843086B698008A2DB5 /* Debug configuration for PBXProject "Polka" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0084A853086B698008A2DB5 /* Release configuration for PBXProject "Polka" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0084A873086B698008A2DB5 /* Debug configuration for PBXNativeTarget "Polka" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitalikupratsevich.Polka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0084A883086B698008A2DB5 /* Release configuration for PBXNativeTarget "Polka" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitalikupratsevich.Polka;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0084A8A3086B698008A2DB5 /* Debug configuration for PBXNativeTarget "PolkaTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitalikupratsevich.PolkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Polka.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Polka";
+			};
+			name = Debug;
+		};
+		B0084A8B3086B698008A2DB5 /* Release configuration for PBXNativeTarget "PolkaTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitalikupratsevich.PolkaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Polka.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Polka";
+			};
+			name = Release;
+		};
+		B0084A8D3086B698008A2DB5 /* Debug configuration for PBXNativeTarget "PolkaUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitalikupratsevich.PolkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Polka;
+			};
+			name = Debug;
+		};
+		B0084A8E3086B698008A2DB5 /* Release configuration for PBXNativeTarget "PolkaUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vitalikupratsevich.PolkaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Polka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0084A603086B697008A2DB5 /* Build configuration list for PBXProject "Polka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0084A843086B698008A2DB5 /* Debug configuration for PBXProject "Polka" */,
+				B0084A853086B698008A2DB5 /* Release configuration for PBXProject "Polka" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		B0084A863086B698008A2DB5 /* Build configuration list for PBXNativeTarget "Polka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0084A873086B698008A2DB5 /* Debug configuration for PBXNativeTarget "Polka" */,
+				B0084A883086B698008A2DB5 /* Release configuration for PBXNativeTarget "Polka" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		B0084A893086B698008A2DB5 /* Build configuration list for PBXNativeTarget "PolkaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0084A8A3086B698008A2DB5 /* Debug configuration for PBXNativeTarget "PolkaTests" */,
+				B0084A8B3086B698008A2DB5 /* Release configuration for PBXNativeTarget "PolkaTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		B0084A8C3086B698008A2DB5 /* Build configuration list for PBXNativeTarget "PolkaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0084A8D3086B698008A2DB5 /* Debug configuration for PBXNativeTarget "PolkaUITests" */,
+				B0084A8E3086B698008A2DB5 /* Release configuration for PBXNativeTarget "PolkaUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B070AA2430A2514A00DFEA20 /* XCRemoteSwiftPackageReference "Factory" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Factory";
+			requirement = {
+				kind = exactVersion;
+				version = 2.5.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B070AA2530A2514A00DFEA20 /* FactoryKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B070AA2430A2514A00DFEA20 /* XCRemoteSwiftPackageReference "Factory" */;
+			productName = FactoryKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B0084A5D3086B697008A2DB5 /* Project object */;
+	validationLevel = 1;
+}
