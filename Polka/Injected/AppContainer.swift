@@ -10,6 +10,7 @@ import FactoryKit
 
 final class AppContainer: SharedContainer {
     static let shared = AppContainer()
+//    static let shared = AppContainer()
     
     let manager: ContainerManager = ContainerManager()
 }
